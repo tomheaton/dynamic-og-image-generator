@@ -1,5 +1,5 @@
 {
-  "name": "dynamic-opengraph-image",
+  "name": "dynamic-og-image-generator",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -10,6 +10,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.1"
   }
 }
